@@ -1,0 +1,12 @@
+Package : java.io
+- 자바의 파일 입출력 구현하는 패키지
+- 자바의 파일 입출력 단위 3단계_stream = byte
+	read(), write()
+	1. byte 입출력	1byte로  byte, byte[]		= InputStream / OutputStream
+		이미지, 동영상, 음성파일 등 스트리밍 처리
+	
+	2. char 입출력	char, char[]	= Reader / Writer
+		문자 관리 
+	
+	3. 객체(object)단위 입출력, Object	= ObjectInputStream / ObjectOutputStream
+- 입출력(파일등), 제어판(파일.디렉토리 file)
